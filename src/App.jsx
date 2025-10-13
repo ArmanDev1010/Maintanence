@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./Logo.png";
+import Logo from "../public/Logo.png";
 
 export default function App() {
   return (
@@ -16,15 +16,17 @@ export default function App() {
       </div>
       <div className="absolute z-[0] top-0 left-0 w-full h-full">
         <video
-          src={`../src/video.mp4`}
+          src={`../public/video.mp4`}
           autoPlay
           loop
           muted
           className="w-full h-full object-cover bg-primary"
         />
       </div>
-      <ul className="absolute bottom-16 z-[2] w-full flex justify-center items-center flex-wrap text-lg gap-16 !gap-y-8 px-[5%]
-      max-[900px]:gap-12 max-[650px]:text-base max-[500px]:bottom-8">
+      <ul
+        className="absolute bottom-16 z-[2] w-full flex justify-center items-center flex-wrap text-lg gap-16 !gap-y-8 px-[5%]
+      max-[900px]:gap-12 max-[650px]:text-base max-[500px]:bottom-8"
+      >
         <li>
           <a href="mailto:boris@hb-links.com">boris@hb-links.com</a>
         </li>
