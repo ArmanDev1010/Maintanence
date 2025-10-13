@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../public/Logo.png";
+import Video from "../public/video.mp4";
 
 export default function App() {
   return (
@@ -16,7 +17,7 @@ export default function App() {
       </div>
       <div className="absolute z-[0] top-0 left-0 w-full h-full">
         <video
-          src={`../public/video.mp4`}
+          src={Video}
           autoPlay
           loop
           muted
