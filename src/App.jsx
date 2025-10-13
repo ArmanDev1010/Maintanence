@@ -32,7 +32,7 @@ export default function App() {
           <a href="mailto:boris@hb-links.com">boris@hb-links.com</a>
         </li>
         <li>
-          <a href="tel:+13474290201">+1 (347) 429-0201</a>
+          <a href="tel:+13474290201">+1 (818) 303-3555</a>
         </li>
         <li className="pointer-events-none">California, USA</li>
       </ul>
