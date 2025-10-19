@@ -9,9 +9,9 @@ export default function App() {
         <img
           src={Logo}
           alt="logo"
-          className="mx-auto w-[450px] mb-20 max-[1280px]:mb-12 max-[650px]:w-auto"
+          className="mx-auto w-[450px] mb-20 max-[1280px]:mb-12 max-[650px]:w-auto max-[500px]:mb-20"
         />
-        <div className="text-white text-2xl text-center max-[1280px]:text-2xl max-[650px]:text-xl max-[500px]:text-lg">
+        <div className="text-white text-2xl text-center max-[1280px]:text-2xl max-[650px]:text-xl">
           Under Construction...
         </div>
       </div>
@@ -26,7 +26,7 @@ export default function App() {
       </div>
       <ul
         className="absolute bottom-16 z-[2] w-full flex justify-center items-center flex-wrap text-lg gap-16 !gap-y-8 px-[5%]
-      max-[900px]:gap-12 max-[650px]:text-base max-[500px]:bottom-8"
+      max-[900px]:gap-12 max-[650px]:text-lg max-[500px]:bottom-8"
       >
         <li>
           <a href="mailto:boris@hb-links.com">boris@hb-links.com</a>
