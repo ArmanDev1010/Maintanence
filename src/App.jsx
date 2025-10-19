@@ -26,7 +26,7 @@ export default function App() {
       </div>
       <ul
         className="absolute bottom-16 z-[2] w-full flex justify-center items-center flex-wrap text-lg gap-16 !gap-y-8 px-[5%]
-      max-[900px]:gap-12 max-[650px]:text-lg max-[650px]:mt-16 max-[500px]:bottom-8"
+      max-[900px]:gap-12 max-[650px]:text-lg max-[650px]:pt-16 max-[500px]:bottom-8"
       >
         <li>
           <a href="mailto:boris@hb-links.com">boris@hb-links.com</a>
