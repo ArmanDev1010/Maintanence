@@ -5,20 +5,22 @@ import Video from "../public/video.mp4";
 export default function App() {
   return (
     <div className="relative w-full min-h-screen text-white">
-      <div className="absolute top-[10%] left-1/2 translate-x-[-50%] z-[2] pointer-events-none max-[650px]:w-[60%] max-[500px]:w-[80%] 
-      max-[500px]:top-[7%]">
+      <div
+        className="absolute top-[10%] left-1/2 translate-x-[-50%] z-[2] pointer-events-none max-[650px]:w-[60%] max-[500px]:w-[70%] 
+      max-[500px]:top-[7%]"
+      >
         <img
           src={Logo}
           alt="logo"
-          className="mx-auto w-[450px] mb-20 max-[650px]:w-auto max-[500px]:mb-24"
+          className="mx-auto w-[450px] mb-20 max-[650px]:w-auto max-[500px]:mb-14"
         />
-        <div className="text-white text-2xl text-center max-[1280px]:text-2xl max-[650px]:text-xl">
+        <div className="text-white text-2xl text-center max-[1280px]:text-2xl max-[650px]:text-xl max-[500px]:text-lg">
           Under Construction...
         </div>
       </div>
       <ul
         className="absolute bottom-12 z-[2] w-full flex justify-center items-center flex-wrap text-lg gap-16 !gap-y-8 px-[5%]
-      max-[900px]:gap-12 max-[650px]:text-lg max-[500px]:bottom-10"
+      max-[900px]:gap-12 max-[650px]:text-lg max-[500px]:bottom-10 max-[500px]:text-base"
       >
         <li>
           <a href="mailto:boris@hb-links.com">boris@hb-links.com</a>
