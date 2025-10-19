@@ -5,8 +5,8 @@ import Video from "../public/video.mp4";
 export default function App() {
   return (
     <div className="relative w-full min-h-screen text-white">
-      <div className="absolute top-[15%] left-1/2 translate-x-[-50%] z-[2] pointer-events-none max-[650px]:w-[60%] max-[500px]:w-[80%] 
-      max-[500px]:top-[10%]">
+      <div className="absolute top-[10%] left-1/2 translate-x-[-50%] z-[2] pointer-events-none max-[650px]:w-[60%] max-[500px]:w-[80%] 
+      max-[500px]:top-[7%]">
         <img
           src={Logo}
           alt="logo"
@@ -17,8 +17,8 @@ export default function App() {
         </div>
       </div>
       <ul
-        className="absolute bottom-16 z-[2] w-full flex justify-center items-center flex-wrap text-lg gap-16 !gap-y-8 px-[5%]
-      max-[900px]:gap-12 max-[650px]:text-lg max-[500px]:bottom-12"
+        className="absolute bottom-12 z-[2] w-full flex justify-center items-center flex-wrap text-lg gap-16 !gap-y-8 px-[5%]
+      max-[900px]:gap-12 max-[650px]:text-lg max-[500px]:bottom-10"
       >
         <li>
           <a href="mailto:boris@hb-links.com">boris@hb-links.com</a>
